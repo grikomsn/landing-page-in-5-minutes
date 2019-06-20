@@ -1,0 +1,16 @@
+{
+  "name": "@griko/landing-page-in-5-minutes-deck",
+  "description": "Landing Page in 5 Minutes Deck Slides",
+  "version": "1.0.0",
+  "repository": "git@github.com:grikomsn/landing-page-in-5-minutes.git",
+  "author": "Griko Nibras <grikomsn@gmail.com>",
+  "devDependencies": {
+    "mdx-deck": "^2.4.0"
+  },
+  "scripts": {
+    "start": "mdx-deck deck.mdx",
+    "build": "mdx-deck build deck.mdx",
+    "now-build": "yarn build"
+  },
+  "license": "MIT"
+}

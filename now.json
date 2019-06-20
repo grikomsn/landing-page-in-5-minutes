@@ -1,0 +1,13 @@
+{
+  "name": "landing-page-in-5-minutes-deck",
+  "version": 2,
+  "alias": ["landing-page-in-5-minutes-deck"],
+  "builds": [
+    {
+      "src": "package.json",
+      "use": "@now/static-build"
+    }
+  ],
+  "public": true,
+  "regions": ["all"]
+}
